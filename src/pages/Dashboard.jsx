@@ -19,7 +19,7 @@ const Dashboard = () => {
         <div className="header-actions">
           <div className="notification-wrapper">
             <Bell size={20} className="header-icon" />
-            <span className="notif-badge">21</span>
+            <span className="notif-badge">2</span>
             <span className="notif-text">Notifications</span>
           </div>
           <div className="profile-trigger">

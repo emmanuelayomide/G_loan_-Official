@@ -33,7 +33,7 @@ const Login = ({ setAuth }) => {
           <div className="logo-circle">✦</div>
           <h1>Welcome Back</h1>
                    <h1>G_LOAN</h1>
-          <p>Enter your credentials to access the portal</p>
+          <p>Enter your credentials to access the Dashboard</p>
         </div>
 
         <form onSubmit={handleLogin} className="login-form">
