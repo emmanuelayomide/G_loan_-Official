@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --bg-black: #000000;
+  --sidebar-width: 260px;
+  --border-color: #1a1a1a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-black);
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+/* Updated Layout Logic */
+.app-layout {
+  display: flex;
+  min-height: 100vh;
+  background-color: var(--bg-black);
+  width: 100%;
+}
+
+.page-container {
+  flex: 1;
+  width: 100%;
+  position: relative;
+  /* Critical: This allows the Login page to fill the screen 
+     and the Dashboard to behave correctly when Sidebar is present */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Smooth transition for when sidebar appears/disappears */
+.sidebar {
+  transition: all 0.3s ease;
+}
