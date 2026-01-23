@@ -12,8 +12,8 @@ const Login = ({ setAuth }) => {
   const navigate = useNavigate();
 
   // DEFAULT CREDENTIALS
-  const DEFAULT_EMAIL = "admin@gmail.com";
-  const DEFAULT_PASSWORD = "password123";
+  const DEFAULT_EMAIL = "CurtisKriner@gmail.com";
+  const DEFAULT_PASSWORD = "Kriner@1k";
 
   const handleLogin = (e) => {
     e.preventDefault();
